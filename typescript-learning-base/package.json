@@ -1,0 +1,36 @@
+{
+  "name": "typescript-learning-project",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "run:basic-types": "ts-node src/01-basic-types.ts",
+    "run:interfaces": "ts-node src/02-interfaces.ts",
+    "run:classes": "ts-node src/03-classes.ts",
+    "run:functions": "ts-node src/04-functions.ts",
+    "run:generics": "ts-node src/05-generics.ts",
+    "run:type-aliases": "ts-node src/06-type-aliases-unions-intersections.ts",
+    "run:modules": "ts-node src/07-modules.ts",
+    "run:decorators": "ts-node src/08-decorators.ts",
+    "run:advanced-types": "ts-node src/09-advanced-types.ts",
+    "run:interop-build-deploy": "ts-node src/10-simple-interoperability.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "learning",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "TypeScript learning project with comprehensive examples",
+  "devDependencies": {
+    "typescript": "^6.0.2",
+    "ts-node": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "@types/lodash": "^4.17.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
